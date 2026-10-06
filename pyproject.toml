@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bridge-llm"
+version = "0.1.0"
+description = "JSON/CLI/MCP bridge toolkit backed by BEN and DDS3"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "mcp>=2.0,<3",
+]
+
+[project.scripts]
+bridge-llm = "bridge_llm.cli:main"
+bridge-mcp = "bridge_llm.mcp_server:main"
+bridge-doctor = "bridge_llm.doctor:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

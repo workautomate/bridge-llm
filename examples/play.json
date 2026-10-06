@@ -1,0 +1,14 @@
+{
+  "action": "play",
+  "seat": "S",
+  "dealer": "N",
+  "vulnerability": "NONE",
+  "auction": ["PASS", "PASS", "1S", "PASS", "4S", "PASS", "PASS", "PASS"],
+  "hands": {
+    "S": "AK97543.K.T3.AK7",
+    "N": "QJ87.A95.K63.T42"
+  },
+  "played": ["DJ", "DK", "D3", "D2"],
+  "scoring": "IMPS",
+  "details": true
+}
