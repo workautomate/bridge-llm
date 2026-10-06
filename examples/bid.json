@@ -1,0 +1,10 @@
+{
+  "action": "bid",
+  "hand": "AK97543.K.T3.AK7",
+  "seat": "S",
+  "dealer": "N",
+  "vulnerability": "NONE",
+  "auction": ["PASS", "PASS"],
+  "scoring": "IMPS",
+  "details": true
+}
